@@ -1,0 +1,13 @@
+poll_seconds = 30
+cooldown_seconds = 300
+history_file = "events.jsonl"
+
+[[watchlist]]
+label = "Example: replace with your pair"
+chain = "solana"
+pair = "REPLACE_WITH_POOL_ADDRESS"
+window = "h1"
+change_percent = 10.0
+# above_usd = 0.01
+# below_usd = 0.001
+# min_volume_h24 = 100000.0
